@@ -1,0 +1,68 @@
+Banco
+MySQL - sem ORM`s 
+
+
+Entidades
+Cliente / usuário
+	id
+	name
+	email
+	password
+	client address
+	- street
+	- number
+	- complement
+	- neighborhood
+	- city
+	- country
+	- zipcode
+
+Motoboy / usuário
+	id	
+	name
+	email
+	password
+	active
+
+Admin / usuário - funcionarios do delivery	
+	id
+	name
+	email
+	password
+
+
+Categorias - Lanches - Porções - Pizzas etc
+	id
+	name
+	description
+	
+
+Pratos -  
+	id
+	name
+	description
+	amount
+	category_id
+	
+
+
+Ordem de pedido
+	id
+	number
+	date
+	amount
+	discount
+	
+
+
+Classes Bases 
+  Cargo
+	Cliente
+	Estabelecimento
+	Funcionario
+  Pessoa
+	Produto
+
+
+
+
